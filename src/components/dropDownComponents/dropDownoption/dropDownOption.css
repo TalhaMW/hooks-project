@@ -1,0 +1,32 @@
+.drop-down-option{
+    /* background-color: blueviolet; */
+}
+.drop-down-option .label{
+    /* background-color: burlywood; */
+    padding: 15px 0;
+}
+.drop-down-option .color-container{
+    /* background-color: brown; */
+    border: 1px solid rgba(121, 121, 121,0.3);
+    width: 200px;
+    border-radius: 1px;
+}
+.color-container .selected{
+    /* background-color: blueviolet; */
+    /* border-bottom: 1px solid gray; */
+    padding: 5px  0;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.color-container .option-show{
+    padding: 10px 0;
+}
+.option-show p{
+    /* border-bottom: 1px solid rgba(95, 95, 95,0.2); */
+    padding: 5px 0;
+    cursor: pointer;
+}
+.color-container .option-hide{
+    /* background-color: azure; */
+    display: none;
+}

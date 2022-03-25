@@ -1,0 +1,18 @@
+.accordion{
+    flex: 0.9;
+    background-color: rgb(17, 17, 17);
+    color: white;
+}
+.page-heading{
+    padding: 3px 0;
+    text-align: center;
+    /* background-color: aqua; */
+    font-size: 3rem;font-weight: 200;
+    color: orangered;
+}
+.accord-item-container{
+    margin: 5px;
+    /* background-color: brown; */
+    padding: 5px;
+    border: 1px solid rgba(41, 41, 41, 0.3);
+}

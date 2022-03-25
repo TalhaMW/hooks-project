@@ -1,0 +1,25 @@
+.custom-card{
+    /* background-color:yellowgreen; */
+    width: 100%;
+    padding: 15px 10px;
+}
+.accord-item-card{
+    /* background-color: rgb(43, 122, 190); */
+    max-width: 100%;
+    font-family: 'Assistant', sans-serif;
+    margin: 5px 0;
+    border-bottom: 1px solid rgba(155, 155, 155,0.3);
+}
+.accord-item-card h2{
+    display: inline-block;
+    /* background-color: blue; */
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+/* search article card */
+.search-article-card{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Assistant', sans-serif;
+    margin: 15px 0;
+}

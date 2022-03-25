@@ -1,0 +1,32 @@
+.custom-search{
+    /* background-color: blue; */
+    width: 100%;
+    padding: 5px;
+}
+.custom-search label{
+    padding: 15px;
+    font-size: 1.1rem;
+}
+.custom-search input{
+    border: none;
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 2px;
+}
+
+/* Article search */
+.article-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article-search input{
+    max-width: 600px;
+    outline: none;
+    background-color: aliceblue;
+}
+
+@media screen and (max-width:820px) {
+    .article-search{flex-direction: column;padding-bottom: 15px;}
+}
